@@ -1,0 +1,46 @@
+*/ {
+    display: block;
+}
+
+body {
+    background-image: url("./../images/gandalfvbalrog.jpg");
+    color: white;
+    background-color: black;
+}
+
+header {
+    border: solid white;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-display: bold;
+    margin-bottom: 10px;
+}
+
+.character {
+    border: solid black;
+    width: 45%;
+    height: 400px;
+    float: left;
+    padding: 0 auto;
+    margin: 0 5px 5px 50px;
+}
+
+.guessing-box {
+    float: left;
+    width: 45%;
+    padding: 0 auto;
+    border: solid black;
+    height: 400px;
+}
+
+.characters-collected {
+    float: left;
+    border: solid black;
+    width: 91%;
+    margin: 5px 50px;
+}
+
+h2 {
+    text-align: center;
+}
